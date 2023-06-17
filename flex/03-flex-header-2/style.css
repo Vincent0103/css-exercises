@@ -1,4 +1,4 @@
-/* this is some magical font-importing.  
+/* this is some magical font-importing.
 you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
@@ -45,4 +45,23 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+/* exercise attempt */
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+  gap: 16px;
+}
+
+.links {
+  display: flex;
+  flex: 1;
+  gap: 8px;
+}
+
+ul {
+  padding: 0;
 }
